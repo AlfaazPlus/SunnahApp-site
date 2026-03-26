@@ -4,16 +4,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SunnahApp - Explore the Sunnah Privately</title>
+  <title>SunnahApp - Explore the Sunnah</title>
   <link rel="icon" type="image/webp" href="/images/siteicons/icon.webp" />
+  <link rel="canonical" href="https://sunnah.alfaazplus.com/" />
   <meta name="description"
-    content="Privacy-focused SunnahApp with no ads, tracking, or data collection. Features 9 major hadith collections, narrator chains, and offline support." />
+    content="SunnahApp is a privacy-focused hadith app for Android: no ads or tracking. Read Sahih Bukhari, Muslim, Tirmidhi, Abu Dawood, and more with narrator chains (isnad), search, and offline support." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="author" content="AlfaazPlus" />
-  <meta property="og:image" content="/images/og.webp" />
+  <meta name="keywords"
+    content="SunnahApp, hadith app, Sahih Bukhari, Sahih Muslim, Islamic app, Sunnah, isnad, narrator chain, offline hadith, Android, open source, privacy" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SunnahApp" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://sunnah.alfaazplus.com/" />
+  <meta property="og:image" content="https://sunnah.alfaazplus.com/images/og.jpg" />
+  <meta property="og:image:alt" content="SunnahApp — privacy-focused hadith reader for Android" />
   <meta property="og:title" content="SunnahApp - Privacy-Focused Sunnah Explorer" />
   <meta property="og:description"
-    content="Explore the Sunnah privately with no ads or tracking. Features Sahih Bukhari, Muslim, and more." />
+    content="Explore the Sunnah privately with no ads or tracking. Major hadith collections, narrator chains, search, and offline reading on Android." />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SunnahApp - Privacy-Focused Sunnah Explorer" />
+  <meta name="twitter:description"
+    content="Explore the Sunnah privately with no ads or tracking. Major hadith collections, narrator chains, and offline support." />
+  <meta name="twitter:image" content="https://sunnah.alfaazplus.com/images/og.jpg" />
+
   <meta name="theme-color" content="#008B5B" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SunnahApp",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Android",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Ad-free, privacy-focused hadith app with major collections, narrator chains (isnad), search, and offline reading.",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.alfaazplus.sunnah",
+    "screenshot": "https://sunnah.alfaazplus.com/images/screenshots/light/ss0.png",
+    "author": { "@id": "https://alfaazplus.com" },
+    "isAccessibleForFree": true,
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "bestRating": 5,
+      "worstRating": 1,
+      "ratingCount": 35
+    }
+  }
+  </script>
 
   <!-- Tailwind CSS from CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +87,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Logo -->
-        <a href="#" class="flex min-w-14 flex-1 items-center gap-2 md:flex-none md:flex-shrink-0">
+        <a href="#home" class="flex min-w-14 flex-1 items-center gap-2 md:flex-none md:flex-shrink-0">
           <img src="/images/siteicons/icon.webp" alt="SunnahApp Logo" class="h-10 w-10 shrink-0 sm:h-12 sm:w-12" />
           <div class="flex min-w-0 flex-col">
             <span class="text-lg font-bold leading-tight truncate sm:text-2xl">SunnahApp</span>
